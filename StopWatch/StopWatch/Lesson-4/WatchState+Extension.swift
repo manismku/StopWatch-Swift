@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension State {
+extension WatchState {
     func getBorderRGBValue() -> (Float,Float,Float) {
         switch self {
         case .running: return (255/255,0,0)

@@ -18,7 +18,7 @@ class WatchControl: UIButton {
         self.layer.masksToBounds = true
     }
 
-    func configure(state: State) {
+    func configure(state: WatchState) {
         self.layer.borderColor = state.getBorderColor().cgColor
         self.setTitleColor(state.getBorderColor(), for: .normal)
         self.setTitle(state.getTitle(), for: .normal)

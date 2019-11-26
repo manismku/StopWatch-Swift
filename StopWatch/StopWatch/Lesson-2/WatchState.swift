@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum State {
+public enum WatchState {
 
     case running
     case paused
